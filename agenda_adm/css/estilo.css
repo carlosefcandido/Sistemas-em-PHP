@@ -1,0 +1,853 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+body{
+ background-color:#dcdddf; 
+ margin:0;
+ background-image:url(../imagens/bg.jpg); 
+ background-repeat:repeat-x;
+ font-family:Arial;
+ color:#413e43;
+ font-size:12px;
+}
+
+.botao{
+font-size:10px;
+font-family:Verdana,Helvetica;
+font-weight:bold;
+color:white;
+background:#89A282;
+border:1px;
+border-color:#89A282;
+width:90px;
+height:19px;
+margin: auto;
+text-align:center;
+}
+
+.botao_lembrar_senha{
+font-size:10px;
+font-family:Verdana,Helvetica;
+font-weight:bold;
+color:white;
+background:#638cb5;
+border:1px;
+border-color:#FFFFFF;
+width:90px;
+height:19px;
+margin: auto;
+text-align:center;
+}
+
+td.botao_menu{
+	background: url(../imagens/filete_menu_visitante.jpg); 
+	 
+	width:112px;
+	height:35px;
+	
+	font-family:Arial;
+	font:bold;
+	font-size:12px;
+	text-align:center;
+	font-weight:bold;
+	color:#FFFFFF;
+	vertical-align:middle;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+td.botao_menu_guia{
+	background: url(../imagens/filete_menu_visitante_guia.jpg); 
+	 
+	width:216px;
+	height:35px;
+	
+	font-family:Arial;
+	font:bold;
+	font-size:12px;
+	text-align:center;
+	font-weight:bold;
+	color:#FFFFFF;
+	vertical-align:middle;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+#ui-datepicker-div{
+	width:200px;
+	font-size:12px;
+}
+
+input{
+	border:1px solid #7F9DB9;
+	height:18px;
+	color:#413E43;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    background: transparent;
+    border: 0;
+}
+
+
+textarea{
+	border:1px solid #7F9DB9;
+	color:#413E43;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.verde{ color:#009900; }
+.vermelho{ color:#993300; }
+
+.topo{
+ font-family:Arial; 
+ color:#5b5b5b; 
+ font-size:12px; 
+ padding-left:5px;
+}
+
+.topo_menu{
+ font-family:Arial; 
+ color:#5b5b5b; 
+ font-size:11px; 
+}
+
+
+font.numeros{
+	color:#EB20AD;
+	font-size:14px;
+	font-weight:bold;
+}
+img.btAddFoto{
+	cursor:pointer;
+}
+img.btAltFoto{
+	cursor:pointer;
+}
+
+.ola_login{
+ color:#ee159c;
+ font-size:12px;
+ font-weight:bold;
+}
+
+.rodape{
+ font-family:Arial; 
+ color:#ffffff; 
+ font-weight:bold; 
+ font-size:11px;
+ text-decoration:none;
+}
+
+.input_login{
+ height:18px;
+ width:78px;
+ font-family:Arial;
+ color:#413e43;
+ font-size:12px; 
+}
+.input_login_inativo{
+ height:18px;
+ width:78px;
+ font-family:Arial;
+ color:#413e43;
+ font-size:12px;
+ background-color:#EDEDEE;
+ border:1px solid #7F9DB9;
+}
+
+.file{
+ height:23px;
+ font-family:Arial;
+ color:#413e43;
+ font-size:12px; 
+}
+
+#banner{
+ width:745px;
+ height:92px;
+ 
+}
+
+.select, .selectInativo{
+ height:18px;
+ font-family:Arial;
+ color:#413e43;
+ font-size:11px; 
+}
+.selectInativo{
+ color:#8c8c8c;
+}
+
+.caixa_home_guia{
+ border:1px solid #dedfe1;
+ border-bottom:0px; 
+ background-color:#f0f0f1;
+ padding:10px;
+}
+
+.titulo_noticia{
+ color:#ee359f;
+ font-family:Arial;
+ font-weight:bold;
+ font-size:16px;
+}
+
+.texto_noticia{
+ font-family:Arial;
+ color:#413e43;
+ font-size:12px;
+}
+
+.texto_rodape
+{
+ font-family:Arial;
+ color:#413e43;
+ font-size:11px;
+}
+
+.menuDinamico{
+ font-family:Arial;
+ padding-right:10px;
+}
+
+.inputMenuDinamico{
+	 color:#413e43;
+	 font-size:10px;
+	 border:0;
+	 text-align:right;
+	 padding-right:5px;
+}
+
+
+.menu_td_noiva{
+ font-family: Arial;
+ font-size: 11px;
+ color: #ee359f;
+ background-color: #ffffff;
+ cursor:pointer;	
+ background-image:url(../imagens/noiva_off.jpg);
+ background-repeat:no-repeat;
+ background-position:bottom;
+}
+
+.menu_td_fornecedor  {
+ font-family: Arial;
+ font-size: 11px;
+ color: #ee359f;
+ background-color: #ffffff;
+ cursor:pointer;	
+ background-image:url(../imagens/fornecedor_off.jpg);
+ background-repeat:no-repeat;		
+ background-position:bottom;	
+}
+
+.menu-sel_td_noiva {
+ font-family: Arial;
+ font-size: 11px;
+ color: #ee359f;
+ background-color: #ffffff;
+ cursor:pointer;
+ background-image:url(../imagens/noiva_on.jpg);
+ background-repeat:no-repeat;
+ background-position:bottom;
+
+}
+
+.menu-sel_td_fornecedor {
+ font-family: Arial;
+ font-size: 11px;
+ color: #ee359f;
+ background-color: #ffffff;
+ cursor:pointer;
+ background-image:url(../imagens/fornecedor_on.jpg);
+ background-repeat:no-repeat;	
+ background-position:bottom;	
+}
+
+.tb-conteudo {
+ border-right: 1px solid #dedfe1;
+ border-left: 1px solid #dedfe1;
+ border-top: none;
+
+}
+
+.conteudo {
+ font-family:Arial;
+ color:#413e43;
+ font-size:12px;
+ background-color: #f3f4f4;
+ width: 278px;
+ height: 134px;
+ padding:10px;
+}
+
+.icone_explore{
+ color:#ee359f;
+ font-size:9px;
+}
+
+.titulo_historia_home{
+ font-family:Arial;
+ font-size:11px;
+ font-weight:bold;
+ color:#426891;
+}
+
+.rodape_historia_home{
+ color:#426891;
+ font-weight:bold;
+ font-family:Arial;
+ font-size:10px;
+}
+
+.titulo_enquete_home{
+ font-family:Arial;
+ font-size:14px;
+ font-weight:bold;
+ color:#413e43;
+}
+
+.rodape_enquete_home{
+ font-family:Arial;
+ font-size:14px;
+ color:#426891;
+ font-weight:bold;
+ padding-top:10px;
+}
+
+.caminho_pagina{
+ font-family:Arial;
+ font-size:11px;
+ color:#414042;
+}
+
+.caminho_pagina_link{
+ color:#ee239d;
+}
+
+a.link{
+	color:#413E43;
+	text-decoration:underline;
+	cursor:pointer;
+}
+a.link:hover{
+	text-decoration:none;
+}
+
+a.link_grande{
+	color:#4462A8;
+	font-size:14px;
+	font-weight:bold;
+	cursor:pointer;
+	text-decoration:none;
+}
+a.link_grande:hover{
+	text-decoration:underline;
+}
+
+.titulo_pagina{
+ color:#426891;
+ font-family:Arial;
+ font-size:18px;
+ font-weight:bold;
+}
+
+.titulo_cadastro{
+ color:#ee359f;
+ font-family:Arial;
+ font-weight:bold;
+ font-size:16px;
+ background-image:url(../imagens/bg_titulo_cadastro.jpg);
+ padding:5px;
+}
+
+.data_noticia{
+ color:#919191;
+ font-size:11px;
+ font-family:Arial;
+}
+
+.autor_noticia{
+ color:#2e62a6;
+ font-family:Arial;
+ font-size:10px;
+ }
+
+.noticias_relacionadas{
+ color:#ee359f;
+ font-family:Arial;
+ font-weight:bold;
+ font-size:12px;
+ padding-top:7px;
+ padding-bottom:3px;
+ }
+
+.table_valida_vermelho{
+ border:0px;
+ background-color:#FFFFFF;
+ font-size:12px;
+ font-family:Arial;
+ color:#009900; 
+}
+
+.table_valida_vermelho{
+ border:0px;
+ background-color:#FFFFFF;
+ font-size:12px;
+ font-family:Arial;
+ color:#FF3366; 
+}
+
+.iframe_valida{
+ border:0px; 
+ width:100%; 
+ height:20px;
+
+}
+
+input.formCampoVermelho{
+ font-family:Arial; 
+ color:#ffffff; 
+ font-size:12px;
+ background-color:#ff7f7f;
+}
+
+select.formCampoVermelho{
+ font-family:Arial; 
+ color:#ffffff; 
+ font-size:12px;
+ background-color:#ff7f7f;
+}
+
+textarea.formCampoVermelho{
+ font-family:Arial; 
+ color:#ffffff; 
+ font-size:12px;
+ background-color:#ff7f7f;
+}
+
+.detalhe_historia{
+ font-family:Arial;
+ font-size:11px;
+ color:#7f7f7f;
+}
+
+#categoria_fornecedor{
+background-color:#ffffff;
+border:1px solid #969696;
+width:85%;
+color:#413e43;
+font-family:Arial;
+font-size:11px;
+padding:10px;
+padding-top:3px;
+padding-bottom:3px;
+margin-top:5px;
+overflow:scroll;
+overflow-x:hidden;
+height:95px;
+}
+
+a.titulo_lista_fornecedor{
+ color:#ee059b;
+ font-family:Arial;
+ font-size:12px;
+ text-decoration:none;
+}
+
+.hr_dashed{
+ background: transparent; 
+ color: transparent; 
+ border-left: none; 
+ border-right: none; 
+ border-top: none; 
+ border-bottom: 1px dashed #414042;
+}
+
+#resultado{
+ font-family:Arial;
+ color:#413e43;
+ font-size:12px;
+}
+
+#informacoes{
+ font-family:Arial;
+ color:#413e43;
+ font-size:12px;
+ background-color:#f5f5f5;
+ width:400px;
+}
+
+.votos{
+ display:block;
+ float:left;
+ width:110px; 
+}
+
+.votos em {
+ background-color:#E32893;
+ display:block;
+ float:none;
+ height:14px;
+ text-indent:-9999px;
+}
+
+.titulo_cotacao_paginacao{
+ font-weight:bold;
+ color:#ffffff;
+ font-family:Arial;
+ font-size:11px;
+ background-color:#4268a4;
+ height:21px;
+}
+
+.cotacao_texto{
+ background-color:#ededee;
+ font-family:Arial;
+ font-size:12px;
+ height:34px;
+ color:#2f6393;
+}
+
+.cotacao_paginacao{
+ background-color:#ededee;
+ font-family:Arial;
+ font-size:11px;
+ height:34px;
+ color:#2f6393;
+}
+
+.tarefa_paginacao{
+ background-color:#fde1d4;
+ font-family:Arial;
+ font-size:11px;
+ height:34px;
+ color:#2f6393;
+}
+
+.cotacao_topo_esq{
+ background-image:url(../imagens/cotacoes_topo_dir.jpg); 
+ background-repeat:no-repeat;
+}
+
+.cotacao_topo_dir{
+ background-image:url(../imagens/cotacoes_topo_esq.jpg); 
+ background-repeat:no-repeat; 
+ background-position:right;
+}
+
+.cotacao_esq{
+ background-image:url(../imagens/cotacoes_dir.jpg); 
+ background-repeat:no-repeat;
+ background-position:left;
+}
+
+.cotacao_dir{
+ background-image:url(../imagens/cotacoes_esq.jpg); 
+ background-repeat:no-repeat; 
+ background-position:right;
+}
+
+
+.tarefa_esq{
+ background-image:url(../imagens/tarefa_ativa_esq.jpg); 
+ background-repeat:no-repeat;
+ background-position:left;
+}
+
+.tarefa_dir{
+ background-image:url(../imagens/tarefa_ativa_dir.jpg); 
+ background-repeat:no-repeat; 
+ background-position:right;
+}
+
+.tarefa_expirada_paginacao{
+ background-color:#eae3b1;
+ font-family:Arial;
+ font-size:11px;
+ height:34px;
+ color:#2f6393;
+}
+
+.tarefa_expirada_esq{
+ background-image:url(../imagens/tarefa_expirada_esq.jpg); 
+ background-repeat:no-repeat;
+ background-position:left;
+}
+
+.tarefa_expirada_dir{
+ background-image:url(../imagens/tarefa_expirada_dir.jpg); 
+ background-repeat:no-repeat; 
+ background-position:right;
+}
+
+.tarefa_inativa_paginacao{
+ background-color:#ededee;
+ font-family:Arial;
+ font-size:11px;
+ height:34px;
+ color:#b9b9ba;
+}
+
+.tarefa_expirada_esq{
+ background-image:url(../imagens/tarefa_inativa_esq.jpg); 
+ background-repeat:no-repeat;
+ background-position:left;
+}
+
+.tarefa_expirada_dir{
+ background-image:url(../imagens/tarefa_inativa_dir.jpg); 
+ background-repeat:no-repeat; 
+ background-position:right;
+}
+
+.tarefa_realizada_paginacao{
+ background-color:#dae4c1;
+ font-family:Arial;
+ font-size:11px;
+ height:34px;
+ color:#2F6393;
+}
+
+.tarefa_realizada_esq{
+ background-image:url(../imagens/tarefa_realizada_esq.jpg); 
+ background-repeat:no-repeat;
+ background-position:left;
+}
+
+.tarefa_realizada_dir{
+ background-image:url(../imagens/tarefa_realizada_dir.jpg); 
+ background-repeat:no-repeat; 
+ background-position:right;
+}
+
+
+table.foto_fornecedor_pesquisa{
+	background-color:#f1f2f2;
+	border:2px solid #d1d3d4;
+}
+
+.cotacao_paginacao_categoria{
+ color:#636466;
+}
+
+
+
+.fornecedores_a_cotar{
+ font-size:16px;
+ font-weight:bold;
+ color:#f14c3a;
+}
+
+td.fornecedor_nao_pagante{
+	background-color:#f7f7f8;
+	padding:10px 10px 10px 10px;
+}
+td.fornecedor_nao_pagante2{
+	background-color:#f0f0f1;
+	padding:10px 10px 10px 10px;
+}
+
+.mensagem_cotacao_box{
+ font-family:Trebuchet MS;
+ font-size:11px;
+ color:#403a44;
+}
+
+.table_filtro_cotacao{
+ background-color:#f6f6f6;
+ border:1px solid #e6e7e8;
+ font-family:Trebuchet MS;
+ font-size:11px;
+ color:#414042;
+ height:32px;
+ padding-left:5px;
+ padding-right:5px;
+}
+
+#detalhes{
+ background-color:#f8f8f8;
+ font-family:Arial;
+ font-size:11px;
+ height:34px;
+ color:#616367;
+ width:100%;
+ padding-top:10px;
+}
+
+.topo_cotacao_recebida{
+ background-color:#feede5;
+ color:#d71920;
+ border-bottom:1px solid #d4d6d7;
+}
+
+.topo_cotacao_enviada{
+ background-color:#edf4d5;
+ color:#598527;
+ border-bottom:1px solid #d4d6d7;
+}
+
+.legenda_tarefa{
+ color:#414042;
+ font-family:Arial;
+ font-size:10px;
+}
+
+.tarefa_urgente{
+ color:#f14c3a;
+ font-weight:bold;
+}
+
+.informacoes_site{
+ color:#4d4d4f;
+ font-family:Trebuchet MS;
+ font-size:11px;
+}
+
+.senha_site_disabled{
+ color:#b8b8b9;
+}
+
+
+.nova_pagina_site_casal{
+ background-color:#f1f2f2;
+}
+
+td.fundo_cinza{
+ background-color:#F1F2F2;
+ padding-top:15px;
+ padding-bottom:15px;
+}
+
+.linha1_recados{
+ padding-left:15px;
+ padding-right:15px;
+ padding-top:7px;
+ color:#4d4d4f;
+ background-color:#e9e9ea;
+}
+
+
+.linha2_recados{
+ padding-left:15px;
+ padding-right:15px;
+ padding-top:7px;
+ color:#4d4d4f;
+ background-color:#f1f2f2;
+}
+
+.box_estatistica_topo{
+ background-color:#ededee;
+ border:1px solid #d1d3d4;
+ color:#426891;
+ font-family:Arial;
+ font-size:11px;
+ height:60px
+}
+
+.box_estatistica_resultado{
+ background-color:#f2f1e8;
+ border:1px solid #d5d7d8;
+ color:#426891;
+ font-family:Arial;
+ font-size:11px;
+ height:60px
+}
+
+.box_estatistica{
+ background-color:#ededee;
+ border:1px solid #d1d3d4;
+ color:#426891;
+ font-family:Arial;
+ font-size:11px;
+ height:35px
+}
+
+.resultado_estatistica{
+ color:#426891;
+ font-family:Arial;
+ font-size:15px;
+ font-weight:bold;
+}
+
+.filtro_pesquisa{
+ background-color:#f6f6f6;
+ border:1px solid #e6e7e8;
+ color:#414042;
+ font-family:Arial;
+ font-size:11px;
+ height:35px
+}
+
+/* HOME */
+.categoria_home{
+	border-bottom:3px solid #556e8e;
+	height:18px;
+}
+td.categoria_home_texto{
+	border-bottom:3px solid #556e8e;
+	background-color:#556e8e;
+	color:#FFF;
+	height:15px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	font-weight:900;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+td.resumo_noticia_principal{
+	color:#ee239d;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	border-bottom:2px solid #e5e5e5;
+	padding-top:5px;
+	padding-bottom:5px;	
+}
+
+td.resumo_noticia_coadjuvante{
+	color:#414042;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:500;
+	font-size:14px;
+	border-bottom:2px solid #e5e5e5;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+hr.linha_horizontal{
+	width:180px;
+	height:2px;
+	color:#e5e5e5;
+}
+
+td.texto_introdutorio{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+a.link_titulo_pesquisa{
+	font-weight:bold;
+	color:#ee239d; 
+	text-decoration:none;
+}
+a.link_texto_pesquisa{
+	color:#413E43; 
+	text-decoration:none;
+}
+
+a.link_rosa{
+	cursor:pointer;
+	font-size:12px;
+	color:#EE059B; 
+	text-decoration:none;
+}
+
+.descricao_tipo{ padding:0 0 0 0; margin:0 0 0 0; font-weight:normal; }
+
+.nome_periodo_tarefa{ font-size:1.5em; font-weight:bold; color:#E32893; margin-top:10px; margin-bottom:2px; }
+.strong{ font-weight:bold }

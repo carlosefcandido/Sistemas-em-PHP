@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>ALDA GOMES COELHO</Nome><Senha>f776bb</Senha><Email>dessinhalindinha13@hotmail.com</Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>2756-7948</TelResidencia></Cliente><Laudo><Visita>020</Visita><CodigoExterno>1002418</CodigoExterno><DataAtendimento>04/07/2012</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>961</Codigo></MedicoExecutante><MedicoRequisitante><Codigo>143455</Codigo><Nome> SOLICITANTE MILTON JOSE P DE AMORIM</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>Hospital de Clinicas Dr Aloan</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>1002418/020<BR><B>DATA: </B>04/07/2012<BR><B>NOME: </B>ALDA GOMES COELHO<BR><B>TEL: </B>2756-7948<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>MILTON JOSE P DE AMORIM<BR>ESCANOMETRIA
+
+As medidas tomadas pela técnica de Farill mostram que o membro inferior 
+esquerdo é 8 mm mais curto.
+
+Data : 04/07/2012
+FABIO FIALHO PRADO
+CRM : 52648612
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

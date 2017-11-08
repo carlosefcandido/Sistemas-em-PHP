@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>TESTE MARCIO</Nome><Senha>aa0134</Senha><Email>cpd@aloan.com.br</Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>6666666</TelResidencia></Cliente><Laudo><Visita>066</Visita><CodigoExterno>0951102</CodigoExterno><DataAtendimento>17/07/2012</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>961</Codigo></MedicoExecutante><MedicoRequisitante><Codigo>52648612</Codigo><Nome> SOLICITANTE FABIO FIALHO PRADO</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>Hospital de Clinicas Dr Aloan</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>0951102/066<BR><B>DATA: </B>17/07/2012<BR><B>NOME: </B>TESTE MARCIO<BR><B>TEL: </B>6666666<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>FABIO FIALHO PRADO<BR>
+Hilos anatômicos.
+
+
+Exame realizado no leito.
+
+
+
+Pulmões restantes de transparência normal.
+
+
+teste teste teste
+
+Este é um exame complementar e, como tal, deve ser analisado pelo médico
+assistente para correlação clínica e decisäo terapêutica.
+Data : 17/07/2012
+FABIO FIALHO PRADO
+CRM : 52648612
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

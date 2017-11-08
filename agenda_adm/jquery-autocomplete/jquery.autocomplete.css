@@ -1,0 +1,343 @@
+body {
+    font-family: arial;
+    background: #ffffff;
+    margin: 0px;
+}
+
+/*---------- Defini  es das  reas M veis da Tela ----------*/
+
+.cabecForm {
+    background-image:  url(../imagens/frames/nw_maj_rond.gif);
+    background-repeat: no-repeat;
+    background-color:  #D3DED1;/* muda_cor */
+    color:             #666666;
+    padding:           5px;
+    padding-left:      10px;
+    margin-top:        0;
+    margin-left:       0px;
+    margin-bottom:     0px;
+    font-size:         10pt;
+    font-weight:       bold;
+    text-align:        left;
+}
+
+.corpoForm td, 
+.corpoForm th {
+    font-size: 8pt;
+    color:     black;
+    padding:   2px;
+    margin:    3px;
+}
+
+.corpoForm input, 
+.corpoForm select {
+    font-size: 8pt;
+    color:     black;
+}
+
+.tabelaVertical, 
+.tabelaVertical table, 
+.tabelaHorizontal,
+.tabelaRelatorio, 
+.tabelaHorizontal table {
+    border-collapse: collapse;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+.tabelaVertical th, 
+.tabelaRelatorio th, 
+.tabelaHorizontal th {
+    border: 1px solid #eee;
+    background-color: #fff;
+    padding: 3px;
+    vertical-align: top;
+}
+
+.tabelaHorizontal th {
+    /*width:            12em;*/
+    text-align:       right;
+    background-color: #ddd;
+
+}
+
+.tabelaVertical th {
+    text-align:       center;
+    background-color: #ddd;
+}
+
+.tabelaRelatorio th {
+    text-align:       left;
+    background-color: #ddd;
+}
+
+.tabelaVertical td, 
+.tabelaHorizontal td {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 3px;
+    text-align: left;
+}
+
+.corpoForm p {
+    color:  #777;
+    margin: 3px;
+    text-align: left;
+}
+
+.barraBotoes {
+    background-color:    #D3DED1; /* muda_cor */
+    background-image:    url(../imagens/frames/sw_med_rond.gif);
+    background-repeat:   no-repeat;
+    background-position: bottom left;
+    padding:             5px;
+    padding-left:        10px;
+    margin:              .67em 0px;
+    margin-top:          0px;
+    font-size:           8pt;
+    text-align:          right;
+}
+
+.barraBotoes input {
+    font-size: 8pt;
+}
+
+.barraBotoes a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.mensagemErro, 
+.mensagemAlerta, 
+.mensagemSucesso, 
+.mensagemInformacao, 
+.mensagemArquivo, 
+.mensagemDiretorio,
+.mensagemUsuario, 
+.mensagemGrupo, 
+.mensagemAjuda, 
+.mensagemApagado, 
+.mensagemProcesso, 
+.mensagemAnotacao, 
+.mensagemDica, 
+.mensagemAjax {
+    background-repeat:   no-repeat;
+    background-position: 10px 10px;
+    border-top:          5px solid #900;
+    border-left:         1px solid #900;
+    border-right:        5px solid #900;
+    border-bottom:       1px solid #900;
+    padding:             10px 10px 10px 50px;
+    min-height:          35px;
+    font-size:           9pt;
+    width:               70%;
+    text-align:          justify;
+}
+
+
+.mensagemErro {
+    background-image: url(../imagens/frames/erroGr.gif);
+}
+
+.mensagemAlerta {
+    background-image: url(../imagens/frames/alertaGr.gif);
+    border-color: #c60;
+}
+
+.mensagemSucesso {
+    background-image: url(../imagens/frames/sucessoGr.gif);
+    border-color: #090;
+}
+
+.mensagemInformacao {
+    background-image: url(../imagens/frames/infoGr.gif);
+    border-color: #D3DED1;
+}
+
+.mensagemArquivo {
+    background-image: url(../imagens/frames/arquivoGr.gif);
+    border-color: #777;
+}
+
+.mensagemDiretorio {
+    background-image: url(../imagens/frames/diretorioGr.gif);
+    border-color: #C1A962;
+}
+
+.mensagemUsuario {
+    background-image: url(../imagens/frames/usuarioGr.gif);
+    border-color: #679E2E;
+}
+
+.mensagemGrupo {
+    background-image: url(../imagens/frames/grupoGr.gif);
+    border-color: #AE4C0C;
+}
+
+.mensagemAjuda {
+    background-image: url(../imagens/frames/ajudaGr.gif);
+    border-color: #C1A962;
+}
+
+.mensagemApagado {
+    background-image: url(../imagens/frames/lixoGr.gif);
+    border-color: #7597C3;
+}
+
+.mensagemProcesso {
+    background-image: url(../imagens/frames/execucaoGr.png);
+    border-color: #CCCCCC;
+}
+
+.mensagemAnotacao {
+    background-image: url(../imagens/frames/afazerGr.png);
+    border-color: #C1A962;
+}
+
+.mensagemDica {
+    background-image: url(../imagens/frames/dicaGr.png);
+    border-color: #C1A962;
+}
+
+.mensagemAjax {
+    background-image: url(../imagens/frames/ajaxLoaderGr.gif);
+    border-color: #CCCCCC;
+}
+
+.avisoErro, 
+.avisoAlerta, 
+.avisoExecutado, 
+.avisoInformacao, 
+.avisoArquivo, .avisoDiretorio,
+.avisoUsuario, 
+.avisoGrupo, 
+.avisoAjuda, 
+.avisoApagado, 
+.avisoProcesso, 
+.avisoAnotacao,
+.avisoDica, 
+.avisoAjax {
+    background-image:    url(../imagens/frames/icon_error_sml.gif);
+    background-repeat:   no-repeat;
+    background-position: 2px 2px;
+    font-size:           8pt;
+    border-top:          1px solid #fff;
+    background-color:    #ddd;
+    border-right:        1px solid #666;
+    border-bottom:       1px solid #666;
+    margin-top:          0;
+    margin-bottom:       10px;
+    padding:             3px 0 0 20px;
+    height:              21px;
+    color:               #006;
+    font-weight:         bold;
+}
+
+.avisoErro {
+    background-image: url(../imagens/frames/erroPq.gif);
+    color: #900;
+}
+
+.avisoAlerta {
+    background-image: url(../imagens/frames/alertaPq.gif);
+    color: #990;
+}
+
+.avisoExecutado {
+    background-image: url(../imagens/frames/sucessoPq.gif);
+    color: #060;
+}
+
+.avisoInformacao {
+    background-image: url(../imagens/frames/infoPq.gif);
+}
+
+.avisoArquivo {
+    background-image: url(../imagens/frames/arquivoPq.gif);
+}
+
+.avisoDiretorio {
+    background-image: url(../imagens/frames/diretorioPq.gif);
+}
+
+.avisoUsuario {
+    background-image: url(../imagens/frames/usuarioPq.gif);
+}
+
+.avisoGrupo {
+    background-image: url(../imagens/frames/grupoPq.gif);
+}
+
+.avisoAjuda {
+    background-image: url(../imagens/frames/ajudaPq.gif);
+}
+
+.avisoApagado {
+    background-image: url(../imagens/frames/lixoPq.gif);
+}
+
+.avisoProcesso {
+    background-image: url(../imagens/frames/execucaoPq.png);
+}
+
+.avisoAnotacao {
+    background-image: url(../imagens/frames/afazerPq.png);
+}
+
+.avisoDica {
+    background-image: url(../imagens/frames/dicaPq.png);
+}
+
+.avisoAjax {
+    background-image: url(../imagens/frames/ajaxLoaderPq.gif);
+}
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #336666;
+	color: #D3DED1;
+}

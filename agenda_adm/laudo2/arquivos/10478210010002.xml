@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>MILTON RIBEIRO DE VASCONCELLOS</Nome><Senha>b36977</Senha><Email>NAO LEMBRA</Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>3322-1859</TelResidencia></Cliente><Laudo><Visita>001</Visita><CodigoExterno>1047821</CodigoExterno><DataAtendimento>20/12/2012</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>322</Codigo></MedicoExecutante><MedicoRequisitante><Codigo></Codigo><Nome> SOLICITANTE </Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>Hospital de Clinicas Dr Aloan</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>1047821/001<BR><B>DATA: </B>20/12/2012<BR><B>NOME: </B>MILTON RIBEIRO DE VASCONCELLOS<BR><B>TEL: </B>3322-1859<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B><BR>
+                           LAUDO ECOGRÁFICO
+
+
+
+
+BRAÇO
+
+
+
+Pele e tecido celular subcutâneo sem alteraçöes.
+Músculos bíceps braquial, tríceps, coracobraquial, braquial e deltóide
+
+de espessura, ecogenicidade, contornos e padräo fibrilar preservados.
+Näo há sinais de lesöes expansivas e/ou coleçöes organizadas.
+
+
+
+ATENCIOSAMENTE
+
+
+
+
+
+
+
+Este é um exame complementar e, como tal, deve ser analisado pelo médico
+assistente para correlação clínica e decisäo terapêutica.
+Data : 20/12/2012
+FABIO BATALHA XAVIER - ULTRA
+CRM : 777064
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

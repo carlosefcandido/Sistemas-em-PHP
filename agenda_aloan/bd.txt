@@ -1,0 +1,60 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.1
+-- http://www.phpmyadmin.net
+-- 
+-- Servidor: localhost
+-- Tempo de Geração: Jun 29, 2011 as 04:13 PM
+-- Versão do Servidor: 5.0.45
+-- Versão do PHP: 5.2.5
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- Banco de Dados: `clinica`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Estrutura da tabela `estados`
+-- 
+
+CREATE TABLE `estados` (
+  `estid` int(2) unsigned zerofill NOT NULL auto_increment,
+  `estuf` varchar(10) NOT NULL default '',
+  `estnome` varchar(20) NOT NULL default '',
+  PRIMARY KEY  (`estid`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=28 ;
+
+-- 
+-- Extraindo dados da tabela `estados`
+-- 
+
+INSERT INTO `estados` (`estid`, `estuf`, `estnome`) VALUES 
+(01, 'AC', 'Acre'),
+(02, 'AL', 'Alagoas'),
+(03, 'AM', 'Amazonas'),
+(04, 'AP', 'Amap'),
+(05, 'BA', 'Bahia'),
+(06, 'CE', 'Cear'),
+(07, 'DF', 'Distrito Federal'),
+(08, 'ES', 'Esp?rito Santo'),
+(09, 'GO', 'Goi'),
+(10, 'MA', 'Maranh'),
+(11, 'MG', 'Minas Gerais'),
+(12, 'MS', 'Mato Grosso do Sul'),
+(13, 'MT', 'Mato Grosso'),
+(14, 'PA', 'Par'),
+(15, 'PB', 'Para?ba'),
+(16, 'PE', 'Pernambuco'),
+(17, 'PI', 'Piau'),
+(18, 'PR', 'Paran'),
+(19, 'RJ', 'Rio de Janeiro'),
+(20, 'RN', 'Rio Grande do Norte'),
+(21, 'RO', 'Rond?nia'),
+(22, 'RR', 'Roraima'),
+(23, 'RS', 'Rio Grande do Sul'),
+(24, 'SC', 'Santa Catarina'),
+(25, 'SE', 'Sergipe'),
+(26, 'SP', 'S?o Paulo'),
+(27, 'TO', 'Tocantins');

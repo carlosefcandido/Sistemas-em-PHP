@@ -1,0 +1,43 @@
+[05-Feb-2013 10:59:39 UTC] PHP Warning:  require_once(fckeditor/fckeditor.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/mpradoin/public_html/agenda/act.php on line 25
+[05-Feb-2013 10:59:39 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'fckeditor/fckeditor.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mpradoin/public_html/agenda/act.php on line 25
+[05-Feb-2013 11:04:05 UTC] PHP Warning:  require_once(fckeditor/fckeditor.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/mpradoin/public_html/agenda/act.php on line 25
+[05-Feb-2013 11:04:05 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'fckeditor/fckeditor.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mpradoin/public_html/agenda/act.php on line 25
+[09-Feb-2013 02:08:43 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[09-Feb-2013 02:10:14 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[09-Feb-2013 02:10:37 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[09-Feb-2013 02:17:17 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[09-Feb-2013 02:19:42 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[09-Feb-2013 02:23:41 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[09-Feb-2013 02:44:50 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[09-Feb-2013 02:55:16 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[09-Feb-2013 13:29:30 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[09-Feb-2013 13:29:56 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[09-Feb-2013 13:45:39 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[09-Feb-2013 13:45:47 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[09-Feb-2013 13:45:52 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[13-Feb-2013 22:09:38 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[13-Feb-2013 22:19:05 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[13-Feb-2013 22:24:14 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[13-Feb-2013 22:26:37 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[13-Feb-2013 22:37:39 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[13-Feb-2013 22:48:33 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[13-Feb-2013 22:54:50 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[13-Feb-2013 22:58:00 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[13-Feb-2013 22:59:15 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[13-Feb-2013 23:03:39 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[13-Feb-2013 23:06:27 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[13-Feb-2013 23:08:06 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[13-Feb-2013 23:14:45 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[27-Feb-2013 19:10:11 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[27-Feb-2013 19:17:48 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[27-Feb-2013 19:25:23 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[01-Mar-2013 20:33:10 UTC] PHP Catchable fatal error:  Object of class classDTO could not be converted to string in /home/mpradoin/public_html/agenda/act.php on line 803
+[01-Mar-2013 20:35:15 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[19-May-2013 00:44:04 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[19-May-2013 00:52:11 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[19-May-2013 01:00:04 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[19-May-2013 01:01:53 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[19-May-2013 01:02:23 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[19-May-2013 01:04:33 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[19-May-2013 01:29:04 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107
+[19-May-2013 01:32:24 UTC] PHP Warning:  ftp_close() expects parameter 1 to be resource, boolean given in /home/mpradoin/public_html/agenda/classes/ftp.php on line 107

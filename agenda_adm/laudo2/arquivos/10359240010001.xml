@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>JEFFERSON BARBOSA DA CUNHA</Nome><Senha>214e6c</Senha><Email></Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>7836-6850</TelResidencia></Cliente><Laudo><Visita>001</Visita><CodigoExterno>1035924</CodigoExterno><DataAtendimento>03/10/2011</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>I94</Codigo></MedicoExecutante><MedicoRequisitante><Codigo>679410</Codigo><Nome> SOLICITANTE ALANA DE CASTRO PAMPLONA</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>HOSPITAL DE CLINICAS DR ALOAN</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>1035924/001<BR><B>DATA: </B>03/10/2011<BR><B>NOME: </B>JEFFERSON BARBOSA DA CUNHA<BR><B>TEL: </B>7836-6850<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>ALANA DE CASTRO PAMPLONA<BR>RX DA COLUNA LOMBAR
+
+Desvio à esquerda do eixo lombar.
+Corpos vertebrais de altura preservada.
+Espaços intersomáticos conservados.
+Pedículos íntegros.
+Articulações interfacetárias sem alterações expressivas.
+
+
+Este é um exame complementar e, como tal, deve ser analisado pelo médico
+assistente para correlação clínica e decisäo terapêutica.
+Data : 03/10/2011
+FELIPE OLIVEIRA NUNES
+CRM : 52733571
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>BEATRIZ ARCANJO DA SILVA</Nome><Senha>eb3b4e</Senha><Email></Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>24750815</TelResidencia></Cliente><Laudo><Visita>002</Visita><CodigoExterno>1047616</CodigoExterno><DataAtendimento>17/04/2012</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>T14</Codigo></MedicoExecutante><MedicoRequisitante><Codigo>416078</Codigo><Nome> SOLICITANTE ANA MARIA SILVA ARAUJO</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>HOSPITAL DE CLINICAS DR ALOAN</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>1047616/002<BR><B>DATA: </B>17/04/2012<BR><B>NOME: </B>BEATRIZ ARCANJO DA SILVA<BR><B>TEL: </B>24750815<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>ANA MARIA SILVA ARAUJO<BR>RX DA COLUNA CERVICAL 
+
+Inversão da curvatura cervical.
+Corpos vertebrais alinhados, de altura preservada.
+Espaços discais com alturas mantidas.
+Pedículos íntegros.
+Articulações interfacetárias  e uncovertebrais sem alterações expressivas.
+
+
+Este é um exame complementar e, como tal, deve ser analisado pelo médico
+assistente para correlação clínica e decisäo terapêutica.
+Data : 17/04/2012
+DANIELA GARCIA DE BRITO COSTA
+CRM : 52757047
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

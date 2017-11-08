@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>TESTE MARCIO</Nome><Senha>66b689</Senha><Email>cpd@aloan.com.br</Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>6666666</TelResidencia></Cliente><Laudo><Visita>041</Visita><CodigoExterno>0951102</CodigoExterno><DataAtendimento>27/09/2011</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>618</Codigo></MedicoExecutante><MedicoRequisitante><Codigo>2'12131</Codigo><Nome> SOLICITANTE TESTE  MEDICO *</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>HOSPITAL DE CLINICAS DR ALOAN</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>0951102/041<BR><B>DATA: </B>27/09/2011<BR><B>NOME: </B>TESTE MARCIO<BR><B>TEL: </B>6666666<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>TESTE  MEDICO *<BR>
+Hilos anatômicos.
+
+
+Infiltrados intersticiais @@
+
+
+Pulmões restantes de transparência normal.
+
+
+
+
+Ausência de áreas de condensação evidenciáveis.
+
+
+Este é um exame complementar e, como tal, deve ser analisado pelo médico
+assistente para correlação clínica e decisäo terapêutica.
+Data : 27/09/2011
+PAULO BRUNO TRIGO
+CRM : 688070
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

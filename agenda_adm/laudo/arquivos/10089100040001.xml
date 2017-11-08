@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>MARIA JOSE DUARTE RIBEIRO</Nome><Senha>98640f</Senha><Email></Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>25802994</TelResidencia></Cliente><Laudo><Visita>146</Visita><CodigoExterno>0071970</CodigoExterno><DataAtendimento>06/09/2013</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>T14</Codigo></MedicoExecutante><MedicoRequisitante><Codigo>313330</Codigo><Nome> SOLICITANTE ALCEMIR REGIS GUIMARAES - GINE</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>Hospital de Clinicas Dr Aloan</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>0071970/146<BR><B>DATA: </B>06/09/2013<BR><B>NOME: </B>MARIA JOSE DUARTE RIBEIRO<BR><B>TEL: </B>25802994<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>ALCEMIR REGIS GUIMARAES - GINE<BR>MAMOGRAFIA DIGITAL EM SISTEMA CR: (03 filmes)
+
+Exame anterior de 03/09/2012.
+Pele e complexos aréolo-papilares sem alterações.
+Mamas heterogeneamente densas.
+Linfonodos nos prolongamentos axilares.
+Ausência de achados com morfologia suspeita.
+O aspecto é semelhante ao exame anterior.
+
+
+IMPRESSÃO:
+
+AUSENCIA DE ACHADOS SUGESTIVOS DE MALIGNIDADE.
+
+CATEGORIA (BI-RADS): 1.
+Sugerimos mamografia de rastreamento em 01 ano.
+
+
+NOTA:
+Em mamas densas recomenda-se, a critério clínico, correlacionar com 
+ultrassonografia.
+
+Este é um exame complementar e, como tal, deve ser analisado pelo médico
+assistente para correlação clínica e decisäo terapêutica.
+Data : 06/09/2013
+DANIELA GARCIA DE BRITO COSTA
+CRM 757047
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

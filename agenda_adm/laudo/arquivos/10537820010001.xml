@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>RUAN DE MOURA GOMES</Nome><Senha>d61ed3</Senha><Email></Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>2692-1757</TelResidencia></Cliente><Laudo><Visita>001</Visita><CodigoExterno>1053782</CodigoExterno><DataAtendimento>13/07/2012</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>T14</Codigo></MedicoExecutante><MedicoRequisitante><Codigo>607092</Codigo><Nome> SOLICITANTE CARLOS FREDERICO S. BERNARDO</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>Hospital de Clinicas Dr Aloan</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>1053782/001<BR><B>DATA: </B>13/07/2012<BR><B>NOME: </B>RUAN DE MOURA GOMES<BR><B>TEL: </B>2692-1757<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>CARLOS FREDERICO S. BERNARDO<BR>RX DO TÓRAX
+
+
+
+ Transparência pulmonar normal.
+ Seios costo-frênicos livres.
+ Volume cardíaco com dimensões normais.
+ Aorta anatômica.
+
+
+
+
+Este é um exame complementar e, como tal, deve ser analisado pelo médico
+assistente para correlação clínica e decisäo terapêutica.
+Data : 13/07/2012
+DANIELA GARCIA DE BRITO COSTA
+CRM : 52757047
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

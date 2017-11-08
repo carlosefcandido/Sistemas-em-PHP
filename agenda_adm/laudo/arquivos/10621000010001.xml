@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>ZENAIDE DE ARAUJO ALMEIDA DE OLIVEIRA</Nome><Senha>e12555</Senha><Email>NT</Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>2651-4648/2226-1035 TRAB</TelResidencia></Cliente><Laudo><Visita>001</Visita><CodigoExterno>1062100</CodigoExterno><DataAtendimento>08/11/2012</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>961</Codigo></MedicoExecutante><MedicoRequisitante><Codigo>123456</Codigo><Nome> SOLICITANTE MEDICO PARTICULAR</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>Hospital de Clinicas Dr Aloan</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>1062100/001<BR><B>DATA: </B>08/11/2012<BR><B>NOME: </B>ZENAIDE DE ARAUJO ALMEIDA DE OLIVEIRA<BR><B>TEL: </B>2651-4648/2226-1035 TRAB<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>MEDICO PARTICULAR<BR>Tomografia Computadorizada de Abdome e Pelve
+
+ Laudo:
+
+Realizada aquisição helicoidal do abdome e procedidas reconstruções 
+multiplanares.
+
+
+Fígado de volume normal, contornos regulares e densidade homogênea.
+Ausência de dilatação das vias biliares intra ou extra-hepáticas.
+Baço sem anormalidades.
+Pâncreas anatômico.
+Adrenais sem alteração.
+Rins tópicos, de volume normal, sem sinais de dilatação pielocalicinal.
+Diastase da musculatura reto-abdominal .
+Grandes vasos sem alterações.
+Não há sinais de linfonodomegalias.
+Bexiga de paredes lisas e regulares.
+Volumosa ascite.
+Imagem sólida com captação heterogênea do meio de contraste na cavidade 
+pélvica medindo 15 cm.
+
+Este é um exame complementar e, como tal, deve ser analisado pelo médico
+assistente para correlação clínica e decisäo terapêutica.
+Data : 08/11/2012
+FABIO FIALHO PRADO
+CRM : 52648612
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

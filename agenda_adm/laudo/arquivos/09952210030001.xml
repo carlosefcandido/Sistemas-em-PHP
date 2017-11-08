@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>GERTRUDES CANDREVA PEREIRA DA CUNHA</Nome><Senha>1dbf55</Senha><Email>NT</Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>24730980</TelResidencia></Cliente><Laudo><Visita>003</Visita><CodigoExterno>0995221</CodigoExterno><DataAtendimento>16/09/2013</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>059</Codigo></MedicoExecutante><MedicoRequisitante><Codigo></Codigo><Nome> SOLICITANTE HELEN CRUZ RITO</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>Hospital de Clinicas Dr Aloan</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>0995221/003<BR><B>DATA: </B>16/09/2013<BR><B>NOME: </B>GERTRUDES CANDREVA PEREIRA DA CUNHA<BR><B>TEL: </B>24730980<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>HELEN CRUZ RITO<BR>SETOR DE DENSITOMETRIA ÓSSEA TÉCNICA
+
+Paciente de 54  anos.
+
+Estudo realizado em aparelho da marca : HOLOGIC, modelo QDR-1000 PLUS
+
+Fêmur Proximal Direito  (Colo do fêmur ):
+Densidade mineral óssea ( DMO ) : 0,882 g/Cm2
+Comparação com o grupo controle de adultos jovens :-0,13 
+( 99 %  - T   Score)
+Comparação com o grupo controle da mesma faixa etária: +1,14
+( 115 %  - Z  Score)
+
+Fêmur Proximal Direito  ( Triângulo de Wards ):
+Densidade mineral óssea ( DMO ) : 0,825 g/Cm2
+Comparação com o grupo controle de adultos jovens :+0,78
+( 112 %   -  T  Score)
+Comparação com o grupo controle da mesma faixa etária :+2,45 
+( 153 %  -   Z  Score)
+
+Fêmur Proximal Direito  ( Trocanter ) :
+Densidade mineral óssea ( DMO ) : 0,672 g/Cm2
+Comparação com o grupo controle de adultos jovens :-0,31
+( 96 %  -  T  Score)
+Comparação com o grupo controle da mesma faixa etária :+0,35 
+( 106 %  -  Z  Score)
+
+CONCLUSÃO
+
+A análise dos dados numéricos caracteriza:Dentro do estimado para faixa etária 
+para faixa etária de adultos jovens .
+
+Este é um exame complementar e, como tal, deve ser analisado pelo médico
+assistente para correlação clínica e decisäo terapêutica.
+
+Data : 09/09/2013
+ANTONIO CARLOS S.M. BARBOSA
+CRM : 754927
+Data : 09/09/2013
+ANTONIO CARLOS S.M. BARBOSA
+CRM : 754927
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

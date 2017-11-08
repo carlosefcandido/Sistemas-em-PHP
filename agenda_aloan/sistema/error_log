@@ -1,0 +1,26 @@
+[31-Dec-2013 19:46:07 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 4
+[31-Dec-2013 19:46:07 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/classes/classCalendario.php on line 3
+[31-Dec-2013 19:57:53 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 4
+[31-Dec-2013 19:57:53 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/classes/classCalendario.php on line 3
+[06-Jan-2014 11:02:00 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 4
+[06-Jan-2014 11:02:00 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/classes/classCalendario.php on line 3
+[07-Jan-2014 22:15:46 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 4
+[07-Jan-2014 22:15:46 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/classes/classCalendario.php on line 3
+[07-Jan-2014 22:15:46 America/Sao_Paulo] PHP Fatal error:  Call to a member function getCampo() on a non-object in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 75
+[08-Jan-2014 16:45:38 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 4
+[08-Jan-2014 16:45:38 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/classes/classCalendario.php on line 3
+[09-Jan-2014 14:49:06 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 4
+[09-Jan-2014 14:49:06 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/classes/classCalendario.php on line 3
+[09-Jan-2014 14:49:44 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 4
+[09-Jan-2014 14:49:44 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/classes/classCalendario.php on line 3
+[09-Jan-2014 15:07:33 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 4
+[09-Jan-2014 15:07:33 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/classes/classCalendario.php on line 3
+[09-Jan-2014 15:08:27 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 4
+[09-Jan-2014 15:08:27 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/classes/classCalendario.php on line 3
+[10-Jan-2014 16:17:55 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 4
+[10-Jan-2014 16:17:55 America/Sao_Paulo] PHP Warning:  ini_set() has been disabled for security reasons in /home/mpradoin/public_html/agenda_aloan/classes/classCalendario.php on line 3
+[12-Jun-2014 15:29:39 America/Sao_Paulo] PHP Fatal error:  Call to a member function getCampo() on a non-object in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 75
+[12-Jun-2014 18:55:57 America/Sao_Paulo] PHP Fatal error:  Call to a member function getCampo() on a non-object in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 75
+[20-Jun-2014 12:31:27 America/Sao_Paulo] PHP Fatal error:  Call to a member function getCampo() on a non-object in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 75
+[20-Jun-2014 12:36:20 America/Sao_Paulo] PHP Fatal error:  Call to a member function getCampo() on a non-object in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 75
+[23-May-2015 21:08:00 America/Sao_Paulo] PHP Fatal error:  Call to a member function getCampo() on a non-object in /home/mpradoin/public_html/agenda_aloan/sistema/index.php on line 75

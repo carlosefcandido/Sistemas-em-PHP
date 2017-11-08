@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>TESTE BARBARA</Nome><Senha>54dc48</Senha><Email></Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>0000000000000000000000000</TelResidencia></Cliente><Laudo><Visita>034</Visita><CodigoExterno>1005259</CodigoExterno><DataAtendimento>22/10/2012</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>203</Codigo></MedicoExecutante><MedicoRequisitante><Codigo>155719</Codigo><Nome> SOLICITANTE AGENOR BINATO</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>Hospital de Clinicas Dr Aloan</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>1005259/034<BR><B>DATA: </B>22/10/2012<BR><B>NOME: </B>TESTE BARBARA<BR><B>TEL: </B>0000000000000000000000000<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>AGENOR BINATO<BR>
+Pulmões restantes de transparência normal.
+
+
+
+
+Hiperinsuflação pulmonar. 
+
+
+
+
+
+Ausência de áreas de condensação evidenciáveis.
+
+
+Este é um exame complementar e, como tal, deve ser analisado pelo médico
+assistente para correlação clínica e decisäo terapêutica.
+Data : 22/10/2012
+ALCEMIR REGIS
+CRM : 313330
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

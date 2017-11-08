@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>MÁRCIO RIBEIRO DO PRADO</Nome><Senha>9b4946</Senha><Email></Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>38601224</TelResidencia></Cliente><Laudo><Visita>023</Visita><CodigoExterno>0926929</CodigoExterno><DataAtendimento>20/12/2012</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>056</Codigo></MedicoExecutante><MedicoRequisitante><Codigo>436715</Codigo><Nome> SOLICITANTE JOSE A C COUTINHO</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>Hospital de Clinicas Dr Aloan</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>0926929/023<BR><B>DATA: </B>20/12/2012<BR><B>NOME: </B>MÁRCIO RIBEIRO DO PRADO<BR><B>TEL: </B>38601224<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>JOSE A C COUTINHO<BR>
+                           LAUDO ECOGRÅFICO
+
+
+PRÓSTATA
+
+
+
+Bexiga repleta, com paredes finas, contornos regulares e conteúdo 
+anecóico.
+Próstata de tamanho normal, medindo  @@    mm (LxTxAP), com 
+contornos regulares e textura do parênquima heterogênea.
+Peso prostático estimado em     gramas.
+Vesículas seminais sem alteraçöes.
+Volume urinário residual pós-miccional em torno de   ml 
+(normal até 30 ml).
+
+
+
+
+
+ATENCIOSAMENTE
+
+
+
+Este é um exame complementar e, como tal, deve ser analisado pelo médico
+assistente para correlação clínica e decisäo terapêutica.
+Data : 20/12/2012
+CLAUDIA FRANCO - ULTRA
+CRM : 437181
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

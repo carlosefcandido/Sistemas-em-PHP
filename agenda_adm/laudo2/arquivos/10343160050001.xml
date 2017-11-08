@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>HERICA MARIA DE OLIVEIRA RODRIGUES</Nome><Senha>e091ff</Senha><Email></Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>80751346</TelResidencia></Cliente><Laudo><Visita>005</Visita><CodigoExterno>1034316</CodigoExterno><DataAtendimento>06/10/2011</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>P74</Codigo></MedicoExecutante><MedicoRequisitante><Codigo>804541</Codigo><Nome> SOLICITANTE FELIPE AMARAL AGUIAR SILVA</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>HOSPITAL DE CLINICAS DR ALOAN</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>1034316/005<BR><B>DATA: </B>06/10/2011<BR><B>NOME: </B>HERICA MARIA DE OLIVEIRA RODRIGUES<BR><B>TEL: </B>80751346<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>FELIPE AMARAL AGUIAR SILVA<BR>RX COTOVELO ESQUERDO
+
+Estrutura óssea sem evidência de alteração nas incidências encaminhadas para 
+laudo radiográfico.
+Relações articulares conservadas.
+
+
+
+
+
+
+
+Este é um exame complementar e, como tal, deve ser analisado pelo médico
+assistente para correlação clínica e decisäo terapêutica.
+Data : 06/10/2011
+WALDIR HERINGER MAYMONE
+CRM : 52438252
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

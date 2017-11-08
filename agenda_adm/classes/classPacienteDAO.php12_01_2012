@@ -1,0 +1,216 @@
+<?php
+
+class classPacienteDAO
+{
+	
+		function listar($nome=''){	
+			$pacientes = array();
+			$BD = new classBD();
+			if ($BD->conectar()){
+				$sql = "select * from paciente";
+				if($nome != ''){
+					$sql.= " where pacnome like '%".$nome."%' ";
+				}
+				$sql.= " order by pacnome";
+				$res = $BD->executarSQL($sql);
+				if ($BD->qtdeLinhas($res) > 0){
+					$generic = new classGeneric();
+					for($i=0;$i<$BD->qtdeLinhas($res);$i++){
+						$paciente = $generic->construir($res,'classDTO');
+						$pacientes[$i] = $paciente;						
+					}
+				}else{
+					$pacientes = NULL;
+				}
+				$BD->fecharConexao();
+			}else{
+				$pacientes = NULL;
+			}
+			return $pacientes;
+		}
+		function buscar($paciente){	
+			$BD = new classBD();
+			if ($BD->conectar()){
+				$sql = "select * from paciente";
+				$sql.= " where pacid = ".$paciente->getCampo("pacid");
+				$res = $BD->executarSQL($sql);
+				if ($BD->qtdeLinhas($res) > 0){
+					$generic = new classGeneric();
+					$paciente = $generic->construir($res,'classDTO');
+				}else{
+					$paciente = NULL;
+				}
+				$BD->fecharConexao();
+			}else{
+				$paciente = NULL;
+			}
+			return $paciente;
+		}
+		function buscarPaciente($paciente){	
+			$BD = new classBD();
+			if ($BD->conectar()){
+				$sql = "select * from paciente ";
+				$sql.= " where pacnome = '".$paciente->getCampo("pacnome")."'";
+				$sql.= " and pactelefone = '".$paciente->getCampo("pactelefone")."'";				
+				$sql.= " and pacconvenio = ".$paciente->getCampo("pacconvenioplano");				
+				$res = $BD->executarSQL($sql);
+				if ($BD->qtdeLinhas($res) > 0){
+					$generic = new classGeneric();
+					$paciente = $generic->construir($res,'classDTO');
+				}else{
+					$paciente = NULL;
+				}
+				$BD->fecharConexao();
+			}else{
+				$paciente = NULL;
+			}
+			return $paciente;
+		}		
+		function buscarExiste($paciente){	
+			$BD = new classBD();
+			if ($BD->conectar()){
+				$sql = _SQL26_;
+				$sql.= " where pacnome = '".$paciente->getCampo("pacnome")."'";
+				$sql.= " and (pactelefone = '".$paciente->getCampo("pactelefone")."'";
+				$sql.= " or paccelular = '".$paciente->getCampo("paccelular")."')";		
+				$res = $BD->executarSQL($sql);
+				if ($BD->qtdeLinhas($res) > 0){
+					return true;
+				}
+				$BD->fecharConexao();
+			}
+			return false;
+		}
+		
+		function deletar($paciente){	
+			$BD = new classBD();
+			if ($BD->conectar()){
+				$sql = _SQL27_;
+				$sql.= " where pacid = ".$paciente->getCampo("pacid");
+				$res = $BD->executarSQL($sql);
+				if ($res > 0){
+					$erro = NULL;
+				}else{
+					$erro = "Erro na execu&ccedil;&atilde;o da SQL.";
+				}
+				$BD->fecharConexao();
+			}else{
+				$erro = "Erro na cone&ccedil;&atilde;o com o Banco de Dados.";
+			}
+			return $erro;
+		}
+		function gravar($paciente){	
+			$BD = new classBD();
+			if ($BD->conectar()){
+				$sql = "insert into paciente values ";
+				$sql.= " (NULL,'".$paciente->getCampo("pacnome")."','".$paciente->getCampo("pactelefone")."'";
+				$sql.= ",NULL,".$paciente->getCampo("pacconvenioplano").")";
+				$res = $BD->executarSQL($sql);
+				if ($res > 0){
+					$erro = NULL;
+				}else{
+					$erro = "Erro na execu&ccedil;&atilde;o da SQL.";
+				}
+				$BD->fecharConexao();
+			}else{
+				$erro = "Erro na cone&ccedil;&atilde;o com o Banco de Dados.";
+			}
+			return $erro;
+		}
+
+		function alterar($paciente){	
+			$BD = new classBD();
+			if ($BD->conectar()){
+				$sql = _SQL36_;
+				$sql.= " pacplano = ".$paciente->getCampo("pacplano");
+				$sql.= ",pacnumerocarteira = '".$paciente->getCampo("pacnumerocarteira")."'";
+				$sql.= ",pacnome = '".$paciente->getCampo("pacnome")."'";					
+				if ($paciente->getCampo("pacdatanascimento") != NULL){
+					$paciente->setCampo("pacdatanascimento",formatarDataBD($paciente->getCampo("pacdatanascimento")));
+				}else{
+					$paciente->setCampo("pacdatanascimento",date("Y/m/d"));						
+				}
+				$sql.= ",pacdatanascimento = '".$paciente->getCampo("pacdatanascimento")."'";								
+				$sql.= ",pacidentidade = '".$paciente->getCampo("pacidentidade")."'";
+				$sql.= ",pacexpeditor = '".$paciente->getCampo("pacexpeditor")."'";
+				$sql.= ",paccpf = '".$paciente->getCampo("paccpf")."'";
+				$sql.= ",pacsexo = '".$paciente->getCampo("pacsexo")."'";
+				$sql.= ",pacendereco = '".$paciente->getCampo("pacendereco")."'";
+				$sql.= ",pacnumero = '".$paciente->getCampo("pacnumero")."'";
+				$sql.= ",paccomplemento = '".$paciente->getCampo("paccomplemento")."'";
+				$sql.= ",pacbairro = '".$paciente->getCampo("pacbairro")."'";
+				$sql.= ",paccep = '".$paciente->getCampo("paccep")."'";
+				$sql.= ",paccidade = ".$paciente->getCampo("paccidade");				
+				$sql.= ",pactelefone = '".$paciente->getCampo("pactelefone")."'";
+				$sql.= ",paccelular = '".$paciente->getCampo("paccelular")."'";				
+				$sql.= ",pacemail = '".$paciente->getCampo("pacemail")."'";
+				$sql.= ",pacnaturalidade = '".$paciente->getCampo("pacnaturalidade")."'";
+				$sql.= ",pacnacionalidade = '".$paciente->getCampo("pacnacionalidade")."'";
+				$sql.= ",pacestadocivil = '".$paciente->getCampo("pacestadocivil")."'";
+				$sql.= ",pactitular = '".$paciente->getCampo("pactitular")."'";
+				$sql.= " where pacid = ".$paciente->getCampo("pacid");
+				$res = $BD->executarSQL($sql);
+				if ($res > 0){
+					$erro = NULL;
+				}else{
+					$erro = "Erro na execu&ccedil;&atilde;o da SQL.";
+				}
+				$BD->fecharConexao();
+			}else{
+				$erro = "Erro na cone&ccedil;&atilde;o com o Banco de Dados.";
+			}
+			return $erro;
+		}
+
+		function atualizarDadosBasicos($paciente){	
+			$BD = new classBD();
+			if ($BD->conectar()){
+				$sql = _SQL36_;
+				$sql.= " pacplano = ".$paciente->getCampo("pacplano");
+				$sql.= ",pacnumerocarteira = '".$paciente->getCampo("pacnumerocarteira")."'";
+				$sql.= ",pacnome = '".$paciente->getCampo("pacnome")."'";					
+				$sql.= ",pacendereco = '".$paciente->getCampo("pacendereco")."'";
+				$sql.= ",pacnumero = '".$paciente->getCampo("pacnumero")."'";
+				$sql.= ",paccomplemento = '".$paciente->getCampo("paccomplemento")."'";
+				$sql.= ",pacbairro = '".$paciente->getCampo("pacbairro")."'";
+				$sql.= ",paccep = '".$paciente->getCampo("paccep")."'";
+				$sql.= ",paccidade = ".$paciente->getCampo("paccidade");				
+				$sql.= ",pactelefone = '".$paciente->getCampo("pactelefone")."'";
+				$sql.= ",paccelular = '".$paciente->getCampo("paccelular")."'";				
+				$sql.= ",pactitular = '".$paciente->getCampo("pactitular")."'";
+				$sql.= " where pacid = ".$paciente->getCampo("pacid");
+				$res = $BD->executarSQL($sql);
+				if ($res > 0){
+					$erro = NULL;
+				}else{
+					$erro = "Erro na execu&ccedil;&atilde;o da SQL.";
+				}
+				$BD->fecharConexao();
+			}else{
+				$erro = "Erro na cone&ccedil;&atilde;o com o Banco de Dados.";
+			}
+			return $erro;
+		}
+		function atualizar($paciente){	
+			$BD = new classBD();
+			if ($BD->conectar()){
+				$sql = "update paciente set ";
+				$sql.= " pacnome = '".$paciente->getCampo("pacnome")."'";
+				$sql.= ",pactelefone = '".$paciente->getCampo("pactelefone")."'";
+				$sql.= ",pacconvenio = ".$paciente->getCampo("pacconvenioplano");					
+				$sql.= " where pacid = ".$paciente->getCampo("pacid");
+				$res = $BD->executarSQL($sql);
+				if ($res > 0){
+					$erro = NULL;
+				}else{
+					$erro = "Erro na execu&ccedil;&atilde;o da SQL.";
+				}
+				$BD->fecharConexao();
+			}else{
+				$erro = "Erro na cone&ccedil;&atilde;o com o Banco de Dados.";
+			}
+			return $erro;
+		}		
+}		
+
+?>

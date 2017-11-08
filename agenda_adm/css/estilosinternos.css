@@ -1,0 +1,865 @@
+/*
+Azul  - 003567
+*/
+
+/*---------- Defini  es Gerais ----------*/
+body {
+    font-family: arial;
+    background: #eee;
+    margin: 0px;
+}
+
+/*---------- Defini  es das  reas Fixas da Tela ----------*/
+
+/*----- Logomarcas -----*/
+
+/* Ajustar os tamanhos dos logos conforme a figura a ser usada */
+
+#logoWebSoft {
+    background-image: url(../imagens/logomedfileweb2.png);
+    background-repeat:no-repeat;		
+    display: block;
+    height: 132px;
+    width:  374px;
+    margin: 5px;
+    float: left;
+}
+
+#logoAloa{
+    background-image: url(../imagens/logoaloa1.jpg);
+    background-repeat:no-repeat;		
+    display: block;
+    height: 97px;
+    width:  694px;
+    margin: 5px;
+    float: left;
+}
+
+#logoProntoLab{
+    background-image: url(../imagens/prontolab.jpg);
+    background-repeat:no-repeat;		
+    display: block;
+    height: 109px;
+    width:  228;
+    margin: 5px;
+    float: left;
+}
+
+#logoHama {
+    background-image: url(../imagens/logo_hama.jpg);
+    background-repeat:no-repeat;		
+    display: block;
+    height: 80px;
+    width:  115px;
+    margin: 5px;
+    float: left;
+}
+
+#NoivaEmDia {
+    background-image: url(../imagens/logoNoivaemDia.png);
+    background-repeat:no-repeat;		
+    display: block;
+    height: 89px;
+    width:  331px;
+    margin: 5px;
+    float: left;
+}
+
+#NoivasRioDeJaneiro {
+    background-image: url(../imagens/logoNoivasRiodeJaneiro.gif);
+    background-repeat:no-repeat;		
+    display: block;
+    height: 63px;
+    width:  230px;
+    margin: 5px;
+    float: left;
+}
+
+#textoWebSoft {
+    display: block;
+    height: 70px;
+    width:  100px;
+    margin: 5px;
+    float: left;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+
+#logoEmpresa {
+    background-image: url(../imagens/frames/logoEmpresa.gif);
+    display: block;
+    height: 50px;
+    width:  79px;
+    margin: 10px;
+    float: left;
+}
+
+.icone {
+    display: block;
+    height: 32px;
+    width:  32px;
+    margin: 10px;
+    float: right;
+}
+
+/*----- Abas de cima da tela -----*/
+
+#toptabs {
+    background-color: #003567; /* muda_cor */
+    color:            #fff;
+    margin:           0;
+    padding-top:      .67em;
+    padding-left:     5px;
+}
+
+#toptabs td {
+    border-bottom: 1px solid #666;
+    border-right:  1px solid #333;
+    border-left:   1px solid #003567; /* muda_cor */
+}
+
+#toptabs th {
+    border-left: 1px solid #003567; /* muda_cor */
+}
+
+/*----- Abas de cima da tela mídia -----*/
+#midia {
+    background-color: #003567; /* muda_cor */
+    color:            #fff;
+    margin:           0;
+    padding-top:      .67em;
+    padding-left:     5px;
+}
+
+#midia td {
+    border-bottom: 1px solid #666;
+    border-right:  1px solid #333;
+    border-left:   1px solid #003567; /* muda_cor */
+}
+
+#midia th {
+    border-left: 1px solid #003567; /* muda_cor */
+}
+
+/*----- Abas de cima da tela noticia -----*/
+#noticia {
+    background-color: #003567; /* muda_cor */
+    color:            #fff;
+    margin:           0;
+    padding-top:      .67em;
+    padding-left:     5px;
+}
+
+#noticia td {
+    border-bottom: 1px solid #666;
+    border-right:  1px solid #333;
+    border-left:   1px solid #003567; /* muda_cor */
+}
+
+#noticia th {
+    border-left: 1px solid #003567; /* muda_cor */
+}
+
+/*----- Abas de cima da tela catalogo -----*/
+#catalogo {
+    background-color: #003567; /* muda_cor */
+    color:            #fff;
+    margin:           0;
+    padding-top:      .67em;
+    padding-left:     5px;
+}
+
+#catalogo td {
+    border-bottom: 1px solid #666;
+    border-right:  1px solid #333;
+    border-left:   1px solid #003567; /* muda_cor */
+}
+
+#catalogo th {
+    border-left: 1px solid #003567; /* muda_cor */
+}
+
+/*----- Abas de cima da newsletter -----*/
+#newsletter {
+    background-color: #003567; /* muda_cor */
+    color:            #fff;
+    margin:           0;
+    padding-top:      .67em;
+    padding-left:     5px;
+}
+
+#newsletter td {
+    border-bottom: 1px solid #666;
+    border-right:  1px solid #333;
+    border-left:   1px solid #003567; /* muda_cor */
+}
+
+#newsletter th {
+    border-left: 1px solid #003567; /* muda_cor */
+}
+
+
+/*----- Abas de cima da resumo -----*/
+#resumo {
+    background-color: #ffffff; /* muda_cor */
+    color:            #000;
+    font-size: 8pt;	
+    margin:           0;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#resumo td {
+    border-bottom: 1px solid #666;
+    border-right:  1px solid #333;
+    border-left:   1px solid #003567; /* muda_cor */
+}
+
+#resumo th {
+    border-left: 1px solid #003567; /* muda_cor */
+}
+
+/*----- Abas de cima da reportagens -----*/
+#reportagens {
+    background-color: #003567; /* muda_cor */
+    color:            #fff;
+    margin:           0;
+    padding-top:      .67em;
+    padding-left:     5px;
+}
+
+#reportagens td {
+    border-bottom: 1px solid #666;
+    border-right:  1px solid #333;
+    border-left:   1px solid #003567; /* muda_cor */
+}
+
+#reportagens th {
+    border-left: 1px solid #003567; /* muda_cor */
+}
+
+/*----- Abas de cima da quentissima -----*/
+#quentissima {
+    background-color: #003567; /* muda_cor */
+    color:            #fff;
+    margin:           0;
+    padding-top:      .67em;
+    padding-left:     5px;
+}
+
+#quentissima td {
+    border-bottom: 1px solid #666;
+    border-right:  1px solid #333;
+    border-left:   1px solid #003567; /* muda_cor */
+}
+
+#quentissima th {
+    border-left: 1px solid #003567; /* muda_cor */
+}
+
+/*----- Abas de cima da paranaoerrar -----*/
+#paranaoerrar {
+    background-color: #003567; /* muda_cor */
+    color:            #fff;
+    margin:           0;
+    padding-top:      .67em;
+    padding-left:     5px;
+}
+
+#paranaoerrar td {
+    border-bottom: 1px solid #666;
+    border-right:  1px solid #333;
+    border-left:   1px solid #003567; /* muda_cor */
+}
+
+#paranaoerrar th {
+    border-left: 1px solid #003567; /* muda_cor */
+}
+
+/*----- Abas de cima da enquete -----*/
+#enquete {
+    background-color: #003567; /* muda_cor */
+    color:            #fff;
+    margin:           0;
+    padding-top:      .67em;
+    padding-left:     5px;
+}
+
+#enquete td {
+    border-bottom: 1px solid #666;
+    border-right:  1px solid #333;
+    border-left:   1px solid #003567; /* muda_cor */
+}
+
+#enquete th {
+    border-left: 1px solid #003567; /* muda_cor */
+}
+
+.tabvazia td {
+    border: none;
+    background-color: #003567;
+}
+
+#usuario {
+    background-color: #D3DED1; /* muda_cor */
+    color:            #666666;
+    display:          block;
+    float:            right;
+    font-size:        8pt;
+    margin:           0px 5px 65px 5px;
+}
+
+#usuario a , 
+#usuario a:link, 
+#usuario a:visited {
+    color:            #666666;
+}
+
+.tabs {
+    border-bottom: 5px #ddd solid;
+    margin-top:    5px;
+    margin-bottom: 0px;
+    margin-left:   2px;
+    margin-right:  2px;
+    padding-left:  5px;
+}
+
+.tabs td, 
+.tabs th {
+    background-repeat: no-repeat;
+    font-weight:       bold;
+}
+
+.tabs th {
+    border-right:     1px solid #333;
+    background-color: #ddd;
+    color:            #fff;
+    border-left:      1px solid #fff;
+}
+
+.tabs td {
+    background-color: #999;
+    border-bottom:    1px solid #fff;
+    border-right:     1px solid #fff;
+    border-left:      1px solid #fff;
+}
+
+.tabs th, 
+.tabs th a:link, 
+.tabs th a:visited {
+    color: #555;
+}
+
+.tabs td, 
+.tabs td a:link, 
+.tabs td a:visited {
+    color: #fff;
+}
+
+.tabs a {
+    text-decoration: none;
+}
+
+div.tabs th, div.tabs td {
+    font-size: 8pt;
+}
+
+#rastro {
+    border-top:       1px solid #fff;
+    border-right:     1px solid #666;
+    border-bottom:    1px solid #666;
+    background-color: #ddd;
+    font-size:        8pt;
+    padding:          5px 0 0 10px;
+    height:           20px;
+}
+
+#rastro a {
+    text-decoration: none;
+}
+
+#menugeral {
+    font-size:        8pt;
+    background-color: #ddd;
+    border-right:     1px solid #666;
+    border-bottom:    1px solid #666;
+    padding:          0 6px 6px 6px;
+    margin:           5px;
+}
+
+#menugeral .rotulo {
+    background-color: #ddd;
+    border:           none;
+    height: 15px;
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 0px;
+}
+
+#menugeral .corpo {
+    background-color: #fff;
+    border-right:     none;
+    border-bottom:    none;
+    border-top:       1px solid #999;
+    padding-top:      .33em;
+}
+
+#menugeral a {
+    text-decoration: none;
+}
+
+
+.box {
+    background:    #efefef;
+    margin-top:    0px;
+    margin-bottom: 6px;
+    font-size:     8pt;
+}
+
+.box .corpo {
+    border-bottom: 1px solid #666;
+    border-right:  1px solid #666;
+    background:    #eee;
+    color:         #555;
+    padding:       4px 4px 4px 0;
+}
+
+.box .rotulo {
+    border-bottom: 1px solid #666;
+    border-right:  1px solid #666;
+    background:    #ddd;
+    color:         #555555;
+    height: 15px;
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 0px;
+}
+
+.box .corpo div {
+    padding-bottom: .3em;
+    padding-left:   1em;
+}
+
+.box .corpo div div {
+    margin-top:     .3em;
+    padding-bottom: 0;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+#ajuda {
+    background-color: #fff; /*#ffc;*/
+    font-size:        8pt;
+    margin:           5px;
+}
+
+#ajuda .linkajuda {
+    cursor: help;
+}
+
+#ajuda a {
+    text-decoration: none;
+}
+
+#ajuda .corpo {
+    border-bottom: 1px solid #cc9;
+    border-right:  1px solid #cc9;
+    padding:       4px 4px 4px 4px;
+}
+
+#ajuda .rotulo {
+    background-image:    url(../imagens/frames/ajudaPq.gif);
+    background-repeat:   no-repeat;
+    background-position: 97%;
+    border-bottom:       1px solid #996;
+    border-right:        1px solid #996;
+    background-color:    #D3DED1;/*#cc9;*/
+    height: 15px;
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 0px;
+}
+
+#cabecalhoAplicacao h2 em {
+    color:      #777;
+    font-style: normal;
+    margin-top: 0px;
+}
+
+#miolo {
+    padding: 10px;
+}
+
+#rodape {
+    border-top:       1px solid #fff;
+    background-color: #ddd;
+    border-right:     1px solid #666;
+    border-bottom:    1px solid #666;
+    margin-top:       0px;
+    font-size:        7pt;
+    text-align:       center;
+    padding:          5px 0 0 0px;
+    height:           20px;
+
+}
+
+.principal {
+    background: white;
+}
+
+/*---------- Defini  es das  reas M veis da Tela ----------*/
+
+.cabecForm {
+    background-image:  url(../imagens/frames/nw_maj_rond.gif);
+    background-repeat: no-repeat;
+    background-color:  #D3DED1;/* muda_cor */
+    color:             #666666;
+    padding:           5px;
+    padding-left:      10px;
+    margin-top:        0;
+    margin-left:       0px;
+    margin-bottom:     0px;
+    font-size:         10pt;
+    font-weight:       bold;
+    text-align:        left;
+}
+
+.corpoForm td, 
+.corpoForm th {
+    font-size: 8pt;
+    color:     black;
+    padding:   2px;
+    margin:    3px;
+}
+
+.corpoForm input, 
+.corpoForm select {
+    font-size: 8pt;
+    color:     black;
+}
+
+.tabelaVertical, 
+.tabelaVertical table, 
+.tabelaHorizontal,
+.tabelaRelatorio, 
+.tabelaHorizontal table {
+    border-collapse: collapse;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+.tabelaVertical th, 
+.tabelaRelatorio th, 
+.tabelaHorizontal th {
+    border: 1px solid #eee;
+    background-color: #fff;
+    padding: 3px;
+    vertical-align: top;
+}
+
+.tabelaHorizontal th {
+    /*width:            12em;*/
+    text-align:       right;
+    background-color: #ddd;
+
+}
+
+.tabelaVertical th {
+    text-align:       center;
+    background-color: #ddd;
+}
+
+.tabelaRelatorio th {
+    text-align:       left;
+    background-color: #ddd;
+}
+
+.tabelaVertical td, 
+.tabelaHorizontal td {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 3px;
+    text-align: left;
+}
+
+.corpoForm p {
+    color:  #777;
+    margin: 3px;
+    text-align: left;
+}
+
+.barraBotoes {
+    background-color:    #D3DED1; /* muda_cor */
+    background-image:    url(../imagens/frames/sw_med_rond.gif);
+    background-repeat:   no-repeat;
+    background-position: bottom left;
+    padding:             5px;
+    padding-left:        10px;
+    margin:              .67em 0px;
+    margin-top:          0px;
+    font-size:           8pt;
+    text-align:          right;
+}
+
+.barraBotoes input {
+    font-size: 8pt;
+}
+
+.barraBotoes a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.mensagemErro, 
+.mensagemAlerta, 
+.mensagemSucesso, 
+.mensagemInformacao, 
+.mensagemArquivo, 
+.mensagemDiretorio,
+.mensagemUsuario, 
+.mensagemGrupo, 
+.mensagemAjuda, 
+.mensagemApagado, 
+.mensagemProcesso, 
+.mensagemAnotacao, 
+.mensagemDica, 
+.mensagemAjax {
+    background-repeat:   no-repeat;
+    background-position: 10px 10px;
+    border-top:          5px solid #900;
+    border-left:         1px solid #900;
+    border-right:        5px solid #900;
+    border-bottom:       1px solid #900;
+    padding:             10px 10px 10px 50px;
+    min-height:          35px;
+    font-size:           9pt;
+    width:               70%;
+    text-align:          justify;
+}
+
+
+.mensagemErro {
+    background-image: url(../imagens/frames/erroGr.gif);
+}
+
+.mensagemAlerta {
+    background-image: url(../imagens/frames/alertaGr.gif);
+    border-color: #c60;
+}
+
+.mensagemSucesso {
+    background-image: url(../imagens/frames/sucessoGr.gif);
+    border-color: #090;
+}
+
+.mensagemInformacao {
+    background-image: url(../imagens/frames/infoGr.gif);
+    border-color: #D3DED1;
+}
+
+.mensagemArquivo {
+    background-image: url(../imagens/frames/arquivoGr.gif);
+    border-color: #777;
+}
+
+.mensagemDiretorio {
+    background-image: url(../imagens/frames/diretorioGr.gif);
+    border-color: #C1A962;
+}
+
+.mensagemUsuario {
+    background-image: url(../imagens/frames/usuarioGr.gif);
+    border-color: #679E2E;
+}
+
+.mensagemGrupo {
+    background-image: url(../imagens/frames/grupoGr.gif);
+    border-color: #AE4C0C;
+}
+
+.mensagemAjuda {
+    background-image: url(../imagens/frames/ajudaGr.gif);
+    border-color: #C1A962;
+}
+
+.mensagemApagado {
+    background-image: url(../imagens/frames/lixoGr.gif);
+    border-color: #7597C3;
+}
+
+.mensagemProcesso {
+    background-image: url(../imagens/frames/execucaoGr.png);
+    border-color: #CCCCCC;
+}
+
+.mensagemAnotacao {
+    background-image: url(../imagens/frames/afazerGr.png);
+    border-color: #C1A962;
+}
+
+.mensagemDica {
+    background-image: url(../imagens/frames/dicaGr.png);
+    border-color: #C1A962;
+}
+
+.mensagemAjax {
+    background-image: url(../imagens/frames/ajaxLoaderGr.gif);
+    border-color: #CCCCCC;
+}
+
+.avisoErro, 
+.avisoAlerta, 
+.avisoExecutado, 
+.avisoInformacao, 
+.avisoArquivo, .avisoDiretorio,
+.avisoUsuario, 
+.avisoGrupo, 
+.avisoAjuda, 
+.avisoApagado, 
+.avisoProcesso, 
+.avisoAnotacao,
+.avisoDica, 
+.avisoAjax {
+    background-image:    url(../imagens/frames/icon_error_sml.gif);
+    background-repeat:   no-repeat;
+    background-position: 2px 2px;
+    font-size:           8pt;
+    border-top:          1px solid #fff;
+    background-color:    #ddd;
+    border-right:        1px solid #666;
+    border-bottom:       1px solid #666;
+    margin-top:          0;
+    margin-bottom:       10px;
+    padding:             3px 0 0 20px;
+    height:              21px;
+    color:               #006;
+    font-weight:         bold;
+}
+
+.avisoErro {
+    background-image: url(../imagens/frames/erroPq.gif);
+    color: #900;
+}
+
+.avisoAlerta {
+    background-image: url(../imagens/frames/alertaPq.gif);
+    color: #990;
+}
+
+.avisoExecutado {
+    background-image: url(../imagens/frames/sucessoPq.gif);
+    color: #060;
+}
+
+.avisoInformacao {
+    background-image: url(../imagens/frames/infoPq.gif);
+}
+
+.avisoArquivo {
+    background-image: url(../imagens/frames/arquivoPq.gif);
+}
+
+.avisoDiretorio {
+    background-image: url(../imagens/frames/diretorioPq.gif);
+}
+
+.avisoUsuario {
+    background-image: url(../imagens/frames/usuarioPq.gif);
+}
+
+.avisoGrupo {
+    background-image: url(../imagens/frames/grupoPq.gif);
+}
+
+.avisoAjuda {
+    background-image: url(../imagens/frames/ajudaPq.gif);
+}
+
+.avisoApagado {
+    background-image: url(../imagens/frames/lixoPq.gif);
+}
+
+.avisoProcesso {
+    background-image: url(../imagens/frames/execucaoPq.png);
+}
+
+.avisoAnotacao {
+    background-image: url(../imagens/frames/afazerPq.png);
+}
+
+.avisoDica {
+    background-image: url(../imagens/frames/dicaPq.png);
+}
+
+.avisoAjax {
+    background-image: url(../imagens/frames/ajaxLoaderPq.gif);
+}
+
+/* CSS Document */ 
+.calendario_tabela{ 
+    font-family:monospace; 
+    font-size:10px; 
+    border:1px solid #999999; 
+    background:#F5F5F5; 
+} 
+.calendario_dias{ 
+    background:#FFFFFF; 
+    padding:2px; 
+} 
+.calendario_dias_hoje{ 
+    background:#C0C0C0; 
+    padding:2px; 
+} 
+.calendario_dias_hoje_agendado{ 
+    background:#000080; 
+    padding:2px; 
+} 
+.calendario_semana{ 
+    background:#999999; 
+    color:#FFFFFF; 
+    text-align:center; 
+    font-weight:bold;     
+} 
+.calendario_hoje{ 
+    font-weight:bold; 
+} 
+.calendario_mes_ano{ 
+    text-align:center; 
+    font-weight:bold; 
+    color:#666666; 
+} 
+.calendario_links{ 
+    color:#000000; 
+    display:block; 
+    text-decoration:none; 
+} 
+.calendario_links:hover{ 
+    text-decoration:none; 
+    background:#999999; 
+    color:#FFFFFF; 
+} 
+.calendario_links_hoje{ 
+    color:#FF0000; 
+    display:block; 
+    text-decoration:none; 
+} 
+.calendario_links_hoje:hover{ 
+    text-decoration:none; 
+    background:#F0F0F0; 
+    color:#FFFFFF; 
+} 
+
+/* ---------- DisplayTag classes ---------- 
+odd
+even
+sorted
+order1
+order2
+sortable
+*/
+
+.company { font-size: 16pt; font-family: Tahoma, sans-serif; color: #353C2C; text-transform: uppercase; }
+.slogan { font-weight: bold; font-size: 8pt; font-family: Arial, sans-serif; color: #7A7876; text-transform: uppercase; }

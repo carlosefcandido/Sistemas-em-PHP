@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>JABER VALENTIM DA SILVA</Nome><Senha>aeac23</Senha><Email></Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>2485-3571</TelResidencia></Cliente><Laudo><Visita>010</Visita><CodigoExterno>1014400</CodigoExterno><DataAtendimento>09/08/2011</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>735</Codigo></MedicoExecutante><MedicoRequisitante><Codigo>143455</Codigo><Nome> SOLICITANTE MILTON JOSE P DE AMORIM</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>HOSPITAL DE CLINICAS DR ALOAN</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>1014400/010<BR><B>DATA: </B>09/08/2011<BR><B>NOME: </B>JABER VALENTIM DA SILVA<BR><B>TEL: </B>2485-3571<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>MILTON JOSE P DE AMORIM<BR>
+Ausência de calcificações patológicas.
+
+
+Elementos ósseos sem alterações.
+
+
+Partes moles sem alterações apreciáveis.
+
+
+Data : 09/08/2011
+
+CLARA FERNANDA AGUIAR GOMES
+
+CRM 52856908
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>

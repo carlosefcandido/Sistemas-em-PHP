@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Principal><Atendimento><Cliente><Nome>NEUSA MACHADO MUNIZ</Nome><Senha>6ef0ad</Senha><Email>NT</Email><DDDCelular>21</DDDCelular><Celular></Celular><DDDTelResidencia>21</DDDTelResidencia><TelResidencia>2573-2345</TelResidencia></Cliente><Laudo><Visita>002</Visita><CodigoExterno>0989134</CodigoExterno><DataAtendimento>09/09/2013</DataAtendimento><Status>2</Status><SMSAutomatico>0</SMSAutomatico><EmailAutomatico>1</EmailAutomatico><FaxAutomatico>0</FaxAutomatico><ImpressaoAutomatica>1</ImpressaoAutomatica><ExibeLaudoCliente>1</ExibeLaudoCliente><ExibeLaudoMedico>0</ExibeLaudoMedico><ExibeLaudoEmpresa>0</ExibeLaudoEmpresa><MedicoExecutante><Codigo>735</Codigo></MedicoExecutante><MedicoRequisitante><Codigo></Codigo><Nome> SOLICITANTE MARIANA DE BARROS BARRETO</Nome></MedicoRequisitante><Empresa><Codigo>001</Codigo><Nome>Hospital de Clinicas Dr Aloan</Nome><Senha></Senha><Email></Email></Empresa><Conteudo><![CDATA[<PRE><B>NIC: </B>0989134/002<BR><B>DATA: </B>09/09/2013<BR><B>NOME: </B>NEUSA MACHADO MUNIZ<BR><B>TEL: </B>2573-2345<BR><B>END.: </B>CHAVES FARIAS 64 - SAO CRISTOVAO - RIO DE JANEIRO<BR><B>MEDICO: </B>MARIANA DE BARROS BARRETO<BR>MAMOGRAFIA DIGITAL EM SISTEMA CR: (02 filmes)
+
+Exame anterior de 23/01/2013.
+Pele e complexos aréolo-papilares sem alterações.
+Mamas predominantemente adiposas.
+Nódulo ovalado, circunscrito, medindo 7 mm, no quadrante inferior medial da 
+mama direita reduzido em relação ao exame anterior e descrito desde 
+16/02/2012 (segundo laudo prévio).
+Calcificações de aspecto benigno à direita.
+Não se observam linfonodos nos prolongamentos axilares.
+O aspecto é semelhante ao exame anterior.
+
+
+IMPRESSÃO:
+
+NÓDULO NA MAMA DIREITA.
+
+CATEGORIA (BI-RADS): 3.
+Sugerimos mamografia de controle em 01 ano.
+
+Este é um exame complementar e, como tal, deve ser analisado pelo médico
+assistente para correlação clínica e decisäo terapêutica.
+Data : 09/09/2013
+CLARA FERNANDA AGUIAR GOMES
+CRM 856908
+</PRE>]]></Conteudo></Laudo></Atendimento></Principal>
